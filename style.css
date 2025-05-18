@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background: linear-gradient(135deg, #e0f0ff, #ffffff);
+  color: #003366;
+}
+
+#search {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: 2px solid #007acc;
+  border-radius: 8px;
+  outline-color: #005fa3;
+  box-shadow: 0 2px 5px rgba(0, 122, 204, 0.2);
+  transition: border-color 0.3s ease;
+}
+
+#search:focus {
+  border-color: #005fa3;
+  box-shadow: 0 0 8px #005fa3;
+}
+
+.idiom-item {
+  background-color: #ffffffcc;
+  padding: 18px 22px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 122, 204, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.idiom-item:hover {
+  background-color: #dbeeff;
+}
+
+.idiom-eng {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #005fa3;
+}
+
+.idiom-tr {
+  margin-top: 6px;
+  font-style: italic;
+  color: #003366cc;
+  font-size: 1.1rem;
+}
+#about-us {
+  max-width: 900px;
+  margin: 50px auto 80px;
+  background-color: #e6f0ffcc;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 102, 204, 0.2);
+  color: #003366;
+}
+
+#about-us h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+  color: #004080;
+}
+
+#about-us p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+#about-us {
+  max-width: 900px;
+  margin: 50px auto 80px;
+  background-color: #e6f0ffcc;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 102, 204, 0.2);
+  color: #003366;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about-us h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+  color: #004080;
+}
+
+#about-us p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+#about-us h3 {
+  margin-top: 30px;
+  color: #004080;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+#about-us ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #002244;
+}
+
+#about-us ul li {
+  padding: 6px 0;
+}
